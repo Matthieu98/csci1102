@@ -8,7 +8,7 @@ This repository contains problem set assignments from CSCI1102 - Computer Scienc
 
 #####Problem Set 2 (Classes/Objects)
 * `Book.java` – A class that creates `Book` objects, each of which contains a title string and boolean (borrowed or available).
-* `Library.java` – A class to create a `Library` object. Contains various methods to check the library's address, operating hours, borrow/return books, and check on a book's status.
+* `Library.java` – A class to create a `Library` object. Contains various methods to check the library's address and operating hours, borrow/return books, and check on a book's availability status.
 
 #####Problem Set 3
 * Non-coding assignment
@@ -21,7 +21,7 @@ This repository contains problem set assignments from CSCI1102 - Computer Scienc
 #####Problem Set 5 (The Queue & Deque Data Structures)
 * `Deque.java` – Interface for `LinkedDeque.java` and `ResizingArrayStack.java`.
 * `LinkedDeque.java` – Implementation of a linked deque structure including methods: `pushLeft()`, `pushRight()`, `popLeft()`, `popRight()`, and `toString()`.
-* `ResizingArrayStack.java` – Extension of `LinkedDeque.java`, allowing the data structure to resize--grow 2x if it runs out of space or shrink 2x if there's enough empty space.
+* `ResizingArrayStack.java` – Extension of `LinkedDeque.java`, allowing the data structure to resize (grow 2x if it runs out of space, or shrink 2x if there's enough empty space).
 * `StdIn.java` & `StdOut.java` - Helper I/O classes taken from Algorithms, 4th Edition (Sedgewick & Wayne).
 
 #####Problem Set 6 (The Priority Queue)
@@ -49,10 +49,8 @@ This repository contains problem set assignments from CSCI1102 - Computer Scienc
 
 #####Problem Set 9 (Huffman Decoding)
 * This is essentially the inverse of problem set 8. This will perform Huffman decoding on a `.zip` file and return the original `.txt`. The only new file is `Puff.java`. All other files are either helper classes for I/O, or solutions to the past problem set. 
-* `Puff.java` - Creates a symbol based on the inputted file to store character and frequency information. Leaf node characters are written to the output text file. 
+* `Puff.java` - Creates a symbol table based on the inputted file to store `<character, frequency>` information. Leaf node characters are written to the output text file. 
 
 #####Problem Set 10 (AI in a Connect 4 Game)
 * All files except `Player1.java` and `Player2.java` were provided by the professor (they set up the game GUI and logic).
 * `Player1.java` & `Player2.java` - (Both are the same) This code represents an AI for the game Connect4. It interprets the board as a 2-dimensional array and analyzes all potential moves at the start of each turn. It assigns a priority to each open spot and makes a defensive decision each time. (We originally attempted to make a minimaxing algorithm to perform at a balance between aggression and defense, but due to time constraints, we were forced to stick with the simpler, defensive option.)
-
-
