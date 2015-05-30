@@ -97,7 +97,7 @@ public class LinkedDeque<Item> implements Deque<Item> {
     // Main method tests the funcitonality of push and pop methods.
     public static void main(String[] args) {
         Deque<String> deque = new LinkedDeque<String>();
-        StdOut.println("TESTING RESIZING ARRAY DEQUE IMPLEMENTATION... \n");
+        StdOut.println("TESTING LINKED DEQUE IMPLEMENTATION... \n");
         StdOut.println("Pushing A and B to the left side of the deque...");
         deque.pushLeft("B");
         deque.pushLeft("A");
