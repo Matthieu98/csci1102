@@ -26,11 +26,11 @@ This repository contains problem set assignments from CSCI1102 - Computer Scienc
 
 #####Problem Set 6 (The Priority Queue)
 * The following files in this problem set implement a priority queue data structure in different ways:
-	*`OrderedArrayMaxPQ.java` – Implemented using array (for ordered data).
-	*`OrderedLinkedListMaxPQ.java` – Implemented using linked list (for ordered data).
-	*`UnorderedArrayMaxPQ.java` – Implemented using array (for unordered data).
-	*`UnorderedLinkedListMaxPQ.java` – Implemented using linked list (for unordered data).
-	*`linkedPQ.java` – Implemented using a heap-ordered binary tree.
+	* `OrderedArrayMaxPQ.java` – Implemented using array (for ordered data).
+	* `OrderedLinkedListMaxPQ.java` – Implemented using linked list (for ordered data).
+	* `UnorderedArrayMaxPQ.java` – Implemented using array (for unordered data).
+	* `UnorderedLinkedListMaxPQ.java` – Implemented using linked list (for unordered data).
+	* `linkedPQ.java` – Implemented using a heap-ordered binary tree.
 * `PQ.java` – Interface for the linkedPQ class.
 * `StdIn.java` & `StdOut.java` - Helper I/O classes taken from Algorithms, 4th Edition (Sedgewick & Wayne).
 
